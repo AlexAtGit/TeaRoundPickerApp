@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>AdamMatthew.TeaRoundPicket.UI</AssemblyName>
+    <RootNamespace>AdamMatthew.TeaRoundPicket.UI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdamMatthew.TeaRoundPicket.Business\AdamMatthew.TeaRoundPicket.Business.csproj" />
+    <ProjectReference Include="..\AdamMatthew.TeaRoundPicket.Data\AdamMatthew.TeaRoundPicket.Data.csproj" />
+  </ItemGroup>
+
+</Project>
